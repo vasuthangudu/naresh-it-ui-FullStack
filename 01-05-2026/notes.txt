@@ -1,0 +1,177 @@
+1. Download and Install Node JS
+
+ 2. Download and Install Visual Studio Code 
+
+ 3. Install Extensions 
+
+       Live Server  (Ritwick Dey)
+
+       Live Preview (Microsoft)
+
+       Intellisense for CSS Class Names in HTML (Zignd)
+
+       GIT Copilot      (Git Hub)
+
+       Vscode-icons (vscode-icons team)
+
+
+
+  Setup Environment for web application
+
+
+
+   What is a Website or Web Application?
+
+    - Website is a virtual directory. 
+
+   - It provides access to resources on server. [Web Server]
+
+    - Every website comprises of 2 paths
+
+       a) Physical Path
+
+       b) Virtual Path
+
+   - Physical path is the location where we keep all the resources required for 
+
+     application. [website]
+
+    
+
+                       D:\shopping 
+
+
+
+   - Virtual path is used to access the resources and restrict the resources. 
+
+
+
+                       http://127.0.0.1/shopping           => local virtual path
+
+                       www.shopping.com                    => global virtual path [cloud] 
+
+
+
+   - Every project development happens in 3 major environment.
+
+
+
+           a) Development
+
+           b) Quality 
+
+           c) Production 
+
+
+
+   - Development is the location where we build the application.
+
+   - Quality is the location where we test the application.
+
+   - Production is the location where we deploy the application. [Go Live]
+
+
+
+   Setup Development Environment for Web Application
+
+   
+
+   1. Open any location on your PC and create a new folder for project
+
+
+
+               D:\e-commerce 
+
+
+
+   2. Open project folder in Visual Studio Code 
+
+
+
+   3. Open Terminal at your project location 
+
+           
+
+               a) Ctrl + ` 
+
+               b) Terminal Menu => New Terminal 
+
+
+
+   4. Change the terminal from power shell to “command prompt”
+
+
+
+               d:\e-commerce> 
+
+   
+
+   5. Run the command 
+
+
+
+               >npm   init  -y
+
+
+
+           - It generates “package.json” file and adds to your project.
+
+           - package.json comprises of project meta data. 
+
+           - Meta data is information about the project, which includes details like
+
+               a) name
+
+               b) version
+
+               c) license 
+
+               d) dependencies etc. 
+
+
+
+   6. Go to project file system and add following files and folders
+
+
+
+                e-commerce 
+
+               |
+
+               |_package.json
+
+               |_readme.md 
+
+               |_.gitignore 
+
+                 |_ public [folder]
+
+               |_ src [folder]
+
+       
+
+           - public is used to keep all static resources like html, images, docs, videos etc.
+
+           - src is used to keep all dynamic resources like css, js, ts, jsx, tsx, sass etc.
+
+       
+
+   7. Add a new file into project folder by name “index.html” 
+
+                       “Welcome to HTML”
+
+
+
+   8. Click “Go Live”
+
+
+
+   9. Open any browser and request 
+
+   
+
+             http://127.0.0.1:5500
+
+                       (or)
+
+             http://localhost:5500
