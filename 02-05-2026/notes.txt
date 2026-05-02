@@ -1,0 +1,115 @@
+Web Page
+
+   - It is a hyper text document that provides an UI to interact with application. 
+
+    - Hyper refers to the term “beyond”. 
+
+   - Hyper text refers to the text that can navigate user beyond the context and display
+
+     more data. 
+
+   - Web pages are categorized into 2 types
+
+       a) Static Page
+
+       b) Dynamic Page
+
+   
+
+   Static Page
+
+   - Static refers to continuous memory. 
+
+   - Memory allocated for first request will continue to the next request. 
+
+   - A static page comprises of same content to send as response for every request.
+
+   - Static pages have extension 
+
+       a) .htm
+
+       b) .html 
+
+
+
+   Dynamic Page
+
+   - Dynamic refers to “discrete” memory.
+
+   - Memory is newly allocated for every request. 
+
+   - A dynamic page can send customized response for every client request. 
+
+   - Dynamic pages have extension
+
+       a) .asp
+
+       b) .aspx
+
+       c) .jsp
+
+       d) .php etc..
+
+
+
+   Note: Static and Dynamic pages are designed by using “HTML”.
+
+             However their composition changes.
+
+   
+
+             Static Page = HTML + CSS + Javascript 
+
+             Dynamic Page = HTML + CSS + Javascript + JSP | ASP | PHP etc..
+
+
+
+                                                    HTML
+
+           - Hyper Text Markup Language.
+
+           - Hyper means beyond.
+
+           - Markup is the process of marking up our content to present as desired. 
+
+           - HTML is a markup language used to markup content and present on Browser.
+
+           - HTML is a presentation language. 
+
+
+
+           Evolution of HTML
+
+           - Mosaic is the name of first browser. 
+
+           - CERN [Council for European Research and Nuclear] labs developed 
+
+             GML & SGML, markup languages for mosaic. 
+
+                   
+
+                           GML - Generic Markup Language
+
+                           SGML - Standard Generic Markup Language
+
+
+
+           - Tim Berners Lee introduced HTML in early 1990’s. 
+
+           - IETF [Internet Engineering Task Force] developed several versions of HTML
+
+             upto 3.1.
+
+           - WHATWG [Web Hypertext Application Technology Work Group] started 
+
+              evolving and maintaining HTML since 2004 till date. 
+
+           - WHATWG released 2 versions of HTML
+
+               a) HTML 4
+
+               b) HTML 5 (Latest 2014)
+
+   
+
+                                   https://whatwg.org/
