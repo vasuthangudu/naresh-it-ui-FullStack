@@ -1,0 +1,153 @@
+HTML Semantics for SEO and Responsive
+Sudhakar Sharma (Sudhakar Sharma Naresh IT)
+•
+Yesterday
+HTML Page Structure
+
+   <!DOCTYPE html>
+
+   <html lang=“en-in”>
+
+   <head>
+
+   <body>
+
+   Round Trip 
+
+
+
+   Semantics for SEO and Responsive Design 
+
+   
+
+   1. <title> 
+
+           - Title is used to display a title for page in browser title bar.
+
+           - Title is used for bookmarking the page. 
+
+           - Title is used in SEO to display title as search result. 
+
+   
+
+           Syntax:
+
+               <title> Shopping </title>
+
+
+
+           - Title is kept in head section when it is static and saves round trip.
+
+           - Title in body loads dynamically as result of round trip. 
+
+
+
+   2. <link>
+
+           - It is required to link various resources required for a page. 
+
+           - You can link 
+
+                   a) favicon 
+
+                   b) stylesheet etc. 
+
+           
+
+           How to link favicon?
+
+           - Favicon is a shortcut icon displayed in browser title bar along with title. 
+
+           - It is also used in bookmarking. 
+
+           - Icon must be an image file with extension “.ico”. 
+
+           - The size of icon file must be between 16 to 32 pixels in dimensions. 
+
+                       
+
+                               https://www.canva.com/
+
+                               https://www.magnific.com/
+
+
+
+           1. Visit the website         
+
+                   https://www.magnific.com/
+
+           2. Search for 
+
+                   “shopping”            
+
+           3. Select icons category 
+
+           4. Download icon file [.jpg, .png] 
+
+           5. Copy into your project folder
+
+
+
+                       e-commerce
+
+                       |_public
+
+                       |    |_images
+
+                       |        |_ your_image [rename as “favicon.ico”]
+
+                       |_ index.html
+
+           
+
+           6. Link image to your page
+
+
+
+                   <head>
+
+                    <link rel=“shortcut icon”  href=“./public/images/favicon.ico”>
+
+                    <title> Shopping </title>
+
+                   </head>
+
+
+
+               Note: There is no order dependency for elements in <head> and attributes
+
+                         in element. 
+
+           
+
+    3. Meta
+
+         - Meta refers to “Meta Data”.
+
+         - It is information about your page used in SEO and responsive design. 
+
+         - To test responsive design you can download and install “Mobile Simulator” 
+
+            for your browser.
+
+   
+
+                       Google => Mobile Simulator for Chrome/Edge/FireFox
+
+
+
+        Responsive Meta
+
+        a) viewport 
+
+                   
+
+               <meta name=“viewport”  content=“width=device-width, initial-scale=1.0”>
+
+
+
+               viewport            : get information of current screen
+
+               content=width    : It fits to the device width. 
+
+               initial-scale        : 1.0 = 100% zoom level

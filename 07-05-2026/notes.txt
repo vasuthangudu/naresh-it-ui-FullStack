@@ -1,0 +1,239 @@
+HTML Body
+Sudhakar Sharma (Sudhakar Sharma Naresh IT)
+•
+12:56 PM
+Title
+
+   Link
+
+   Meta
+
+       
+
+   Meta Responsive 
+
+       
+
+       a) viewport 
+
+   
+
+       b) http-equiv 
+
+
+
+           <meta http-equiv=“refresh” content=“5”>
+
+
+
+    Meta SEO Features
+
+   
+
+    a) keywords
+
+        - SEO uses keywords to find any page and display in search results. 
+
+        - Keywords define the business type and what it offers. 
+
+       
+
+     Syntax:
+
+           <meta name=“keywords”  content=“some words to find your page”>
+
+
+
+   b) description 
+
+         - It is summary about your website to display in search results. 
+
+         
+
+       Syntax:
+
+           <meta name=“description” content=“something about your website”>
+
+
+
+    c) charset 
+
+         - It defines the language used for HTML in webpage. 
+
+         
+
+         <meta charset=“UTF-8”> 
+
+   
+
+         UTF          : Unicode Transformation Format 
+
+         8                 : 8 bit memory  for English 
+
+        16             : 16 bit memory for Chinese, Japanese, Korean etc.
+
+        32             : 32 bit memory for Arabic 
+
+
+
+ Summary
+
+       <head>
+
+           <title>
+
+           <link>
+
+           <meta>
+
+       </head> 
+
+
+
+                                               HTML Body
+
+     - It comprises of content that loads as result of round-trip.      - <body> element can have a layout with various semantic and non-semantic        elements.
+
+     - <body> element attributes include the following 
+
+   
+
+     1. align        : It aligns the body content left, center, right or justify.
+
+
+
+                         Syntax:
+
+                           <body align=“left | center | right | justify”>
+
+
+
+      2. bgcolor    : It sets background color for body.
+
+
+
+      3. text        : It sets color for text in body.
+
+
+
+           
+
+       HTML Colors
+
+               - HTML allows colors in 3 formats 
+
+                   a) Color Name
+
+                   b) Color Shade Name
+
+                   c) Hexadecimal Code 
+
+
+
+               - Color name
+
+       
+
+                           <body bgcolor=“green”>
+
+
+
+               - Shade Name
+
+
+
+                           <body bgcolor=“lightgreen”>
+
+
+
+               - Hexadecimal Code 
+
+       
+
+                       a) 3 Chars code with “#” 
+
+   
+
+                                   #RGB    => Red Green Blue
+
+                                   R        = 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+
+                                   G        = 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+
+                                   B        = 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+
+                                   
+
+                                   #0f0        Green
+
+                                   #f00        Red
+
+                                   #00f        Blue
+
+
+
+                       b) 6 Chars code with #
+
+       
+
+                                   #RRGGBB   
+
+           
+
+                                   #00ff00         Green
+
+                                   #0000ff         Blue 
+
+
+
+                       <body bgcolor=“red”>    //   Good
+
+                       <body bgcolor=“#f00”>
+
+                       <body bgcolor=“#ff0000”>
+
+   
+
+                       <body text=“white”>
+
+                       <body text=“#fff”>       //  Good
+
+                       <body text=“#ffffff”>
+
+                               
+
+      4. alink        : It sets color for active links in page
+
+
+
+      5. vlink        : It sets color for visited links in page
+
+
+
+       Syntax:
+
+                 <body alink=“red”  vlink=“green”>     
+
+       <!DOCTYPE html>
+
+<html lang="en-in">
+
+  <head>
+
+     <title>Shopping Online</title>
+
+     <link rel="shortcut icon" href="./public/images/favicon.ico">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body align="justify" vlink="green" alink="red" >
+
+     <a href="https://www.amazon.in">Amazon</a&gt; |
+
+     <a href="https://www.msdn.com">Microsoft</a&gt;
+
+  </body>
+
+</html>

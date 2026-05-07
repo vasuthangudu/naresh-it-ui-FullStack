@@ -1,0 +1,129 @@
+HTML Parsing , Browser Architecture
+Sudhakar Sharma (Sudhakar Sharma Naresh IT)
+•
+May 4
+Browser
+
+   - It is a software tool used by clients to view webpages. 
+
+   - Popular browsers
+
+           a) Safari
+
+           b) Edge
+
+           c) Chrome
+
+           d) FireFox 
+
+           e) Opera etc.
+
+
+
+ Browser Architecture
+
+  1. UI [User Interface]
+
+     - It refers to browser interface with elements like buttons, textbox, extensions etc.
+
+     - Every browser can have different UI elements. 
+
+
+
+  2. UI Backend 
+
+      - It comprises of the logic required to control the UI. 
+
+      - You can customize UI logic if it is an open source browser. 
+
+   
+
+  3. Browser Engine 
+
+       - It is responsible for translating HTML & CSS in browser. 
+
+       - Every browser can use a different engine. 
+
+       - The popular browsers & their engines
+
+
+
+                   Chrome        : V8
+
+                   Edge            : Chakra
+
+                   FireFox        : Spider Monkey, Gecko 
+
+                   Safari            : Webkit 
+
+                   etc.
+
+
+
+  4. Rendering Engine 
+
+       - It is responsible for rendering output into browser.        - Browser engine translates & rendering engine presents. 
+
+
+
+  5. Javascript Interpreter
+
+       - It is responsible for translating Javascript in browser. 
+
+       - Interpreter translates line-by-line. 
+
+       
+
+  6. Network 
+
+       - It is responsible for locating the resources required for web page.
+
+       - It loads the resources into browser memory. 
+
+
+
+  7. Data Persistance 
+
+       - It is browser storage.
+
+       - It store client details 
+
+           a) Local Storage
+
+           b) Session Storage
+
+           c) Cookies etc.
+
+
+
+   Note: Every browser follows “Netscape” architecture. 
+
+   
+
+                                                HTML Parsing
+
+    Markup => Bytes => Chars => Tokens => Elements => DOM => Render => Layout 
+
+     => Paint
+
+
+
+     Note: HTML is a collection of elements arranged in hierarchical order called                DOM. [Document Object Model] 
+
+   
+
+                                                HTML Elements
+
+   - HTML has over 100’s of elements, which are categorized into 5 groups
+
+
+
+       1. Normal Elements
+
+       2. Void Elements
+
+       3. RC Data Elements
+
+       4. Raw Text Elements
+
+       5. Foreign Elements

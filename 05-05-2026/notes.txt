@@ -1,0 +1,179 @@
+HTML Page Structure 
+Sudhakar Sharma (Sudhakar Sharma Naresh IT)
+•
+May 5
+Browser Architecture 
+
+ HTML Parsing
+
+ HTML Elements 
+
+ 
+
+  FAQ’s: 
+
+   1. What is difference between semantic and non-semantic element?
+
+   A. Semantic elements are defined for a specific purpose. HTML provides more than
+
+       100 semantic elements. 
+
+        Non-Semantic can be used for any purpose. 
+
+
+
+       Ex: 
+
+               <img> <h1> <p>    Semantics
+
+               <div> <span>         Non Semantics 
+
+
+
+   2. What is difference between block level and inline elements?
+
+   A. Inline element allows other content in same line. 
+
+       Block level element will not allow other content in same line. 
+
+
+
+                <p>   Block Level
+
+                <span> Inline
+
+
+
+   3. What is difference between generic and non-generic elements?
+
+   A. A generic element is configured using pre-defined actions.
+
+       Non-generic elements are static without any pre-defined actions. 
+
+
+
+           <div>  Non Generic
+
+           <form> Generic 
+
+
+
+   Summary
+
+   - Semantic 
+
+   - Non Semantic 
+
+   - Block Level
+
+   - Inline 
+
+   - Generic 
+
+   - Non Generic 
+
+
+
+   HTML Page Structure
+
+   
+
+   1. HTML page can have extension 
+
+           .html        
+
+           .htm 
+
+
+
+           FAQ: What is difference between “.htm” & “.html”?
+
+           Ans : Both are same. “.htm” is extension according to OS standards. 
+
+
+
+   2. Every web page starts with “Document Declaration”
+
+
+
+               <!DOCTYPE html>
+
+
+
+       - It is used to define version of HTML used in page. 
+
+       - It marks the page version as HTML 5.
+
+       - So that HTML 5 parser is use to translate page. 
+
+   
+
+   3. Every web page have a document scope which is defined using 
+
+   
+
+               <html>
+
+
+
+               </html>
+
+
+
+        - If scope is not defined then it leads to CSS and Script conflicts.
+
+        - Browser can merge multiple documents into one body. 
+
+        - Every HTML document must define regional language type.
+
+
+
+               <html  lang=“en-in”>
+
+
+
+               </html>
+
+
+
+       - “lang” is an attribute and “en-in” is its value. 
+
+
+
+   4. Every HTML document comprises 2 sections at high level
+
+
+
+           a) <head>
+
+           b) <body>
+
+
+
+       <head>
+
+       - It defines the content that loads into memory and later renders into page. 
+
+       - It saves round trip.
+
+       - If content is same and doesn’t change for a specific duration of time then
+
+         better to keep in head section.
+
+
+
+       <body>
+
+       - It defines the content that loads directly from server every time.
+
+       - It uses round trip.
+
+       - If content is dynamic and changes regularly then better to keep in body.
+
+   
+
+       FAQ: What is Round Trip?
+
+       Ans:  It is the process of requesting the content from server every time. 
+
+                It is good for content that updates frequently.
