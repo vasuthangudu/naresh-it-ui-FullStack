@@ -1,0 +1,215 @@
+Icons, emoji & multilingual
+Sudhakar Sharma (Sudhakar Sharma Naresh IT)
+•
+12:41 PM
+Setup Icons for Project
+
+   - Icons are not directly available through HTML. 
+
+   - You have to get from 3rd party libraries like
+
+           a) Bootstrap Icons
+
+           b) Fontawesome 
+
+           c) MUI Icons etc.
+
+   
+
+   Bootstrap Icons    
+
+   
+
+   1. Open project terminal and switch to command prompt in VS code. 
+
+   
+
+                   Terminal Menu => New Terminal [ Ctrl + ` ]
+
+
+
+   2. Run the following command
+
+
+
+                   >npm   install    bootstrap-icons --save 
+
+
+
+   3. A new folder is added into your project by name “node_modules”.
+
+       It is used to keep all library files required for project.
+
+
+
+   4. Icons are present in a “CSS” file, which you have to link to your HTML 
+
+        page. 
+
+   
+
+                       e-commerce
+
+                       |_node_modules
+
+                       |    |_bootstrap-icons
+
+                       |        |_font
+
+                       |            |_bootstrap-icons.css
+
+                       |
+
+
+
+  <head>
+
+  <link  rel=“stylesheet”  href=“./node_modules/bootstrap-icons/font/bootstrap-icons.css”>
+
+  </head>
+
+
+
+   5. Every icon has a class name, you can apply to any element using class attribute. 
+
+
+
+               <span class=“bi bi-facebook”> </span>
+
+               <div class=“bi bi-twitter-x”> </div>
+
+
+
+       You can get the class names from official website 
+
+               “ icons.getbootstrap.com “
+
+
+
+    Note: You can link bootstrap icons directly from their CDN, instead of downloading
+
+               and installing into project. 
+
+   
+
+               1. Visit the official website 
+
+                               icons.getbootstrap.com
+
+
+
+               2. Scroll to the footer and copy CDN link. [Content Delivery Network]
+
+           
+
+               3. Paste in <head> section of your HTML page
+
+           
+
+                               <link rel=“....” href=“...”>
+
+
+
+               4. Apply icons classes 
+
+           
+
+                               <div class=“bi bi-house-door”> </div>
+
+                           
+
+
+
+   Emojis 
+
+   
+
+    1. Visit  “https://getemoji.com/“
+
+
+
+    2. Click on any emoji to copy 
+
+
+
+    3. Paste inside your HTML page [div, span]
+
+
+
+   Multilingual Content 
+
+   
+
+   1. Visit “https://translate.google.com/“
+
+
+
+   2. Select the source and target languages 
+
+           English       =>      Hindi 
+
+   
+
+   3. Just type the sentence or word, which is translated automatically
+
+
+
+   4. Copy the translated content and paste in your HTML page. 
+
+
+
+       
+
+   Page Design Ideas 
+
+   
+
+   1. Visit   “https://stitch.withgoogle.com”
+
+
+
+   2. Login with your google account 
+
+
+
+   3. Go to Web category    
+
+
+
+   4. Enter the prompts for generating required UI
+
+
+
+           - Design an e-commerce home page
+
+           - Header with navigation and search bar            - Body with featured products in cards
+
+           - Footer with services and contact details
+
+
+
+                               HTML Body Layout Semantics
+
+   - HTML 5 provides various semantic elements to design body layout.
+
+   - They are used to make the page more responsive and SEO friendly. 
+
+
+
+    <header>
+
+    <footer>
+
+    <section>
+
+    <main>
+
+    <nav>
+
+    <aside>
+
+    <article>
+
+    <dialog>
+
+    <address>
